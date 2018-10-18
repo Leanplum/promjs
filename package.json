@@ -8,7 +8,7 @@
     "lint": "eslint src test",
     "build": "babel src --out-dir lib && webpack-cli -p && cp package.json README.md index.d.ts ./lib",
     "release": "yarn lint && yarn test && yarn version && yarn build && yarn push",
-    "push": "cd lib && npm login && npm publish && git push --set-upstream origin master --follow-tags"
+    "push": "cd lib && npm login && npm publish --access=public && git push --set-upstream origin master --follow-tags"
   },
   "license": "Apache-2.0",
   "devDependencies": {
