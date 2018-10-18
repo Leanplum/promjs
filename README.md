@@ -1,6 +1,8 @@
 ## promjs
 
-A Prometheus metrics registry implemented in JavaScript
+This is a fork of [weaveworks/promjs](https://github.com/weaveworks/promjs).
+
+A Prometheus metrics registry implemented in JavaScript.
 
 ### Goals
 * Stick to [Prometheus client best practices](https://prometheus.io/docs/instrumenting/writing_clientlibs/) as closely as possible
