@@ -26,6 +26,9 @@ module.exports = (env, options) => {
       library: LIBRARY_NAME,
       libraryTarget: 'var'
     },
+    optimization: {
+      minimize: options.mode === 'production'
+    },
     module: {
       rules: [{
         test: /(\.js)$/,

@@ -1,4 +1,7 @@
-import { each, includes, last } from 'lodash';
+import each from 'lodash/each';
+import includes from 'lodash/includes';
+import last from 'lodash/last';
+
 import prom from '../src/index';
 
 describe('promjs', function () {
