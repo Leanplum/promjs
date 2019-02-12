@@ -1,11 +1,9 @@
-import {
-  isEqual,
-  omit,
-  keys,
-  map,
-  find,
-  reduce
-} from 'lodash';
+import isEqual from 'lodash/isEqual';
+import omit from 'lodash/omit';
+import keys from 'lodash/keys';
+import map from 'lodash/map';
+import find from 'lodash/find';
+import reduce from 'lodash/reduce';
 
 
 function getLabelPairs(metric) {
